@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery.js"></script>
+    <script src="pooper.js"></script>
+    <script src="bootstrap.js"></script>
+    <title>Login</title>
+    <style>
+        .mdl-size {
+            width: 410px;
+        }
+
+        .mdl-title {
+            font-size: medium;
+            text-align: right;
+        }
+
+        input {
+            width: 326px;
+            height: 52px;
+            border-style: ridge ridge ridge none;
+            border-radius: 0px 5px 5px 0px;
+            border-color: purple;
+
+        }
+
+        .social-media-button {
+            width: 378px;
+            height: 52px;
+            margin-bottom: 20px;
+            background-color: rgb(58, 85, 159);
+            color: whitesmoke;
+            font-size: 17px;
+            box-shadow: 10px 10px 5px whitesmoke;
+            border-color: purple;
+        }
+
+        .icon {
+            margin-left: 20px;
+            margin-top: 17px;
+            font-size: 20px;
+            color: whitesmoke;
+        }
+
+        .btn-btn-group {
+            width: 52px;
+            height: 52px;
+            background-color: purple;
+
+        }
+
+        .icon-adjustment {
+            margin-left: 20px;
+            margin-top: 17px;
+            font-size: 20px;
+            color: whitesmoke
+        }
+
+        #login {
+            background-color: purple;
+        }
+
+        .txt-center {
+            text-align: center;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .google-btn {
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 5px;
+        }
+
+        .icon-size {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#myModal">
+            Login
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered mdl-size">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title mdl-title">Login to your TutorDesk
+                            Account!</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+
+                    <div class="modal-body ">
+                        <form action="">
+
+                            <button class="btn btn-primary social-media-button ">
+                                <span class="fa fa-facebook-f icon-size"></span>
+                                Continue with
+                                facebook</button>
+                            <button class=" social-media-button  mx-auto  shadow google-btn">
+                                <img src="new-google-favicon-512.png" alt="">
+                                Continue with
+                                Google</button>
+                            <div class="btn-group">
+                                <div class="btn-btn-group"><span class="fa fa-envelope icon-adjustment "></span>
+                                </div>
+                                <input type="text" name="" id="" placeholder="Email"
+                                    class=" mx-auto  shadow p-4 mb-4 bg-white  ">
+                                </input>
+                            </div>
+                            <div class="btn-group">
+                                <div class="btn-btn-group"><span class="fa fa-lock icon-adjustment"></span>
+                                </div>
+                                <input type="text" name="" id="" placeholder="Password"
+                                    class=" mx-auto  shadow p-4 mb-4 bg-white  ">
+                                </input>
+                            </div>
+
+                            <button class="btn btn-primary social-media-button mx-auto  shadow "
+                                id="login">Login</button>
+                            <p class="txt-center">or <a href="#">forget password</a></p>
+
+                    </div>
+                    </form>
+
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <p>Don't have an account?<a href="#"> Sign up</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
