@@ -1,0 +1,72 @@
+.mdl-size {
+    width: 410px;
+}
+
+.mdl-title {
+    font-size: medium;
+    text-align: right;
+}
+
+input {
+    width: 326px;
+    height: 52px;
+    border-style: ridge ridge ridge none;
+    border-radius: 0px 5px 5px 0px;
+    border-color: purple;
+
+}
+
+.social-media-button {
+    width: 378px;
+    height: 52px;
+    margin-bottom: 20px;
+    background-color: rgb(58, 85, 159);
+    color: whitesmoke;
+    font-size: 17px;
+    box-shadow: 10px 10px 5px whitesmoke;
+    border-color: purple;
+}
+
+.icon {
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.btn-btn-group {
+    width: 52px;
+    height: 52px;
+    background-color: purple;
+
+}
+
+.icon-adjustment {
+    margin-left: 20px;
+    margin-top: 17px;
+    font-size: 20px;
+    color: whitesmoke
+}
+
+#login {
+    background-color: purple;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.google-btn {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+
+.icon-size {
+    font-size: 24px;
+}
