@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        .box {
+            width: 410px;
+            height: 450px;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        @media screen and (max-width:1024px) {
+            .box {
+                margin-top: 5px;
+
+
+
+
+            }
+        }
+
+
+        hr {
+            margin-top: 15px;
+            width: 100%;
+
+            background-color: purple
+        }
+
+        .icon-size {
+
+            font-size: 20px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .google-btn {
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 5px;
+            box-shadow: 10px 10px 5px whitesmoke;
+            border-color: purple;
+        }
+
+        input {
+            width: 315px;
+            height: 48px;
+            border-style: ridge ridge ridge none;
+            border-radius: 0px 5px 5px 0px;
+            border-color: purple;
+            margin-left: -3px;
+
+
+
+        }
+
+        .btn-btn-group {
+            width: 48px;
+            height: 48px;
+            background-color: purple;
+            margin-top: 0px;
+            border-radius: 0%;
+
+        }
+
+        .icon-adjustment {
+            margin-left: 18px;
+            margin-top: 15px;
+            font-size: 20px;
+            color: whitesmoke;
+
+        }
+
+        .btn-group {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mx-auto shadow-lg p-4 mb-4 bg-white box ">
+        <p style="text-align: center;font-size: 20px;">Login to your TutorDesk Account!
+        </p>
+        <hr>
+        <form action="">
+            <button class="btn btn-primary mx-auto shadow-lg "
+                style="width: 175px;height: 48px;font-size: 15px;margin-bottom: 10px;">Continue
+                With
+                <span class="fa fa-facebook-f icon-size"></span></button>&nbsp;
+            <button class=" google-btn btn btn-primary shadow-lg"
+                style="width: 175px;height: 48px;font-size: 15px;margin-bottom: 10px;">Continue With
+                <img src="new-google-favicon-512.png" alt=""></button>
+            <div class="btn-group shadow-lg">
+                <div class="btn-btn-group"><span class="fa fa-user icon-adjustment "></span>
+                </div>
+                <input type="text" name="" id="" placeholder="Email">
+                </input>
+            </div>
+            <div class="btn-group shadow-lg">
+                <div class="btn-btn-group"><span class="fa fa-lock icon-adjustment "></span>
+                </div>
+                <input type="text" name="" id="" placeholder="Password">
+                </input>
+            </div>
+            <button class="btn btn-primary shadow-lg"
+                style="margin-top: 10px; width: 363px;height: 48px; background-color: purple;">Login</button>
+            <p style="margin-top: 15px; text-align: center;"> or <a href="">forget password</a></p>
+            <hr>
+            <p style="text-align: right;"> Don't have an Account ? <a href="">Sign up</a></p>
+        </form>
+    </div>
+
+</body>
+
+</html>
